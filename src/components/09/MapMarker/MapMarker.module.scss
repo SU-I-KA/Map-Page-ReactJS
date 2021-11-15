@@ -1,0 +1,19 @@
+.wrapMarker {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+  .logoWrap {
+    position: absolute;
+    width: 100px;
+    height: 116px;
+    transform: translate(-50%, -100%);
+    img {
+      max-width: 74px;
+      max-height: 46px;
+      position: absolute;
+      top: 22%;
+      left: 16%;
+    }
+  }
+}

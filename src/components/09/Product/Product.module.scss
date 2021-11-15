@@ -1,0 +1,109 @@
+.single__product {
+  padding: 7px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.7551665306091309px solid #ececec;
+  border-radius: 5px;
+  max-width: 268px;
+  .img__container {
+    // height: 254px;
+    border-radius: 5px;
+    // max-width: 254px;
+    img {
+      width: 100%;
+      background-size: cover;
+    }
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d1d1b;
+    text-align: left;
+    padding: 10px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    // height: 32px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 15px 6px;
+    min-height: 60px;
+    .price {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 0 0 58%;
+      .currentPrice {
+        font-size: 20px;
+        color: #542e90;
+        font-weight: 600;
+        flex: 0 0 100%;
+      }
+      .discountSection {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 8px;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        .oldPrice {
+          color: #a7a9ac;
+          font-size: 14px;
+          font-weight: 600;
+          text-decoration: line-through;
+        }
+        .discountValue {
+          width: 52px;
+          height: 18px;
+          background: #fff200 0% 0% no-repeat padding-box;
+          border-radius: 3px;
+          color: #000000;
+          font-size: 10px;
+          font-weight: 400;
+          text-align: center;
+          line-height: 20px;
+        }
+      }
+
+      span {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    img {
+      max-width: 56px;
+      max-height: 40px;
+    }
+  }
+  .rate__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 21% 0;
+    padding: 6px;
+    .stars {
+      img {
+        width: 17px;
+        height: 16px;
+      }
+    }
+    .rate {
+      font-size: 14px;
+      font-weight: 600;
+      color: #000;
+    }
+  }
+  .pickup {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #1d1d1b;
+    padding: 8px;
+    padding-top: 0;
+    span {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}
